@@ -27,6 +27,7 @@ class DetailsViewController: UIViewController {
       nameLabelConstraints()
     }
     
+  
   func nameLabelConstraints() {
     nameLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
